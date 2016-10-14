@@ -1,3 +1,11 @@
+(function($) {
+  var h=$(window).height();
+  console.log(h);
+  $('.section').css("min-height",h);
+})(jQuery);
+
+
+
 $(function($) {
   $(".intro").typed({
     strings: ["Hi, my name is..."],
@@ -22,9 +30,10 @@ $(function($) {
                   $('.subtext4').typed({
                     strings: ["See look at the mess of js code that is behind this monstrosity.", "See check out the blinking cursors that I can't seem to make go away"],
                     callback: function() {
-                      $('subtext5').typed({
-                        strings: ["balls"],
-                        typeSpeed: 1
+                      $('.subtext5').typed({
+                        strings: ['¯&#92_(ツ)_/¯'],
+                        typeSpeed: 1,
+                        startDelay: 4000
                       });
                     } 
                   });   
@@ -42,23 +51,40 @@ $(function($) {
   var cnt = 
         '<li><a href="#home">Home</a></li>' +
         '<li><a href="#contact"</a>Contact</li>' +
-        '<li><a href="#credits"</a>Credits</li>' +
-        '<li class="icon">' +
-          '<a href="javascript:void(0);" onclick="openClose()">&#9776;</a>' +
-        '</li>';
+        '<li><a href="#credits"</a>Credits</li>';
   $('#topNav').append(cnt);
 })(jQuery);
 
+(function($) {
+  var cnt =
+        '<p class="contact">If you wish to contact me with any questions, comments, or concerns<br/>please fill out this form that literally goes nowhere and I will not get back to you.<br/>(Looking at you Microsoft)</p>';
+    $('#precontact').append(cnt);
+})(jQuery);
 
 (function($) {
   $('#daform').on('submit', function(e) {
     e.preventDefault();
     console.log('*yodels');
-
+     
+    var cnt =
+      '<div class="topspacer"></div>' +
+      'Thank you for your submission. A service representative will contact you shortly......<br/>But actually this is my information if you need to get in touch with me.<br/>You won&#39t be hearing from anyone' +
+      '<br/><br/>Austin Whited' +
+      '<br/>University of Pittsburgh' +
+      '<br/>C: (410) 916-5277' +
+      '<br/>E: auw6@pitt.edu' +
+      '<br/>http://pitt.edu/~auw6' +
+      '</p>';
+    if(document.getElementById('checkjawn').checked) {
+      $('#daform').hide();
+      $('#precontact').hide();
+      $('#afterForm').append(cnt);
+    } else {
+      alert("You must accept the Terms of Service before proceeding!");
+    }
     var $form = $(this).serialize();
     console.log($form);
-
   });
-
 })(jQuery);
+
 

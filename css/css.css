@@ -6,12 +6,19 @@ body {
 
 ul.topnav {
   list-style-type: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
- 
+
+.topspacer {
+  min-height: 3em;
+} 
 ul.topnav li {
   float: left;
 }
@@ -28,7 +35,23 @@ ul.topnav li a {
 ul.topnav li.icon {
   display: none;
 }
+
+.text {
+  border-style: none;
+}
+
+.radios {
+  border-style: none;
+}
+
+.checkboxes {
+  border-style: none;
+}
  
+.form-submit {
+  border-style: none;
+}
+
 .name {
   text-align: center;
 }
