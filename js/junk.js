@@ -1,12 +1,11 @@
 (function($) {
   var h=$(window).height();
-  console.log(h);
   $('.section').css("min-height",h);
 })(jQuery);
 
 
 
-$(function($) {
+(function($) {
   $(".intro").typed({
     strings: ["Hi, my name is..."],
     typeSpeed: 1,
@@ -75,15 +74,24 @@ $(function($) {
       '<br/>E: auw6@pitt.edu' +
       '<br/>http://pitt.edu/~auw6' +
       '</p>';
-    if(document.getElementById('checkjawn').checked) {
+    
+    var form = $(this).serialize();
+    console.log(form);
+    if(document.get<ElementById('checkjawn').checked) {
       $('#daform').hide();
       $('#precontact').hide();
+      $.ajax({
+        url: "php/formsubmit.php?=" + form,
+        type: "get", 
+        success: function(result){
+              $("#afterForm").append(result);
+        }
+      });  
       $('#afterForm').append(cnt);
     } else {
       alert("You must accept the Terms of Service before proceeding!");
     }
-    var $form = $(this).serialize();
-    console.log($form);
+
   });
 })(jQuery);
 

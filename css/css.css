@@ -41,7 +41,7 @@ ul.topnav li.icon {
 }
 
 .radios {
-  border-style: none;
+  /*border-style: none;*/
 }
 
 .checkboxes {
@@ -57,7 +57,7 @@ ul.topnav li.icon {
 }
 
 .subtext {
-  //display: inline-block;
+  display: inline-block;
   text-align: center;
 }
 

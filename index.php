@@ -4,6 +4,11 @@
     <title>Project</title>
     <meta charset="UTF-8"> 
     <link rel="stylesheet" type="text/css" href="css/css.css">
+    <!--<link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+          crossorigin="anonymous"
+    >-->
   </head>
   <body>
     <ul class="topnav" id="topNav"></ul>
@@ -23,7 +28,7 @@
       <div class="topspacer"></div>
       <h1>Contact</h1>
       <div id="precontact"></div>
-      <form action="/formsubmit.php" method="get" id="daform">
+      <form method="post" id="daform">
         <p>Please enter your contact info:</p>
         <fieldset class="text">
           <div class="input-holder">
@@ -42,23 +47,23 @@
         <p>On a scale from 1 - 5 how would you rate this site:</p>
         <fieldset class="radios">
           <div class="radio holder">
-            <input type="radio" name="rad" value="rad1" id="rad1">
+            <input type="radio" name="rad" value="1" id="rad1">
             <label for="rad1">1</label> 
           </div>
           <div class="radio holder">
-            <input type="radio" name="rad" value="rad2" id="rad2">
+            <input type="radio" name="rad" value="2" id="rad2">
             <label for="rad2">2</label> 
           </div>
           <div class="radio holder">
-            <input type="radio" name="rad" value="rad3" id="rad3">
+            <input type="radio" name="rad" value="3" id="rad3">
             <label for="rad3">3</label> 
           </div>
           <div class="radio holder">
-            <input type="radio" name="rad" value="rad4" id="rad4">
+            <input type="radio" name="rad" value="4" id="rad4">
             <label for="rad4">4</label> 
           </div>
           <div class="radio holder">
-            <input type="radio" name="rad" value="rad5" id="rad5">
+            <input type="radio" name="rad" value="5" id="rad5">
             <label for="rad5">5</label> 
           </div>
         </fieldset>
@@ -67,7 +72,7 @@
           <input type="checkbox" name="checkjawn" value="yes" id="checkjawn">
         </fieldset>
         <fieldset class="form-submit">
-          <input type="submit" action="submit()">  
+          <input type="submit">  
         </fieldset>
       </form>
       <div id="afterForm"></div>
@@ -94,6 +99,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./js/typed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
     <script src="./js/junk.js"></script>
   </body>
 </html>
