@@ -3,9 +3,7 @@
   $('.section').css("min-height",h);
 })(jQuery);
 
-
-
-(function($) {
+/*$(document).ready(function() {
   $(".intro").typed({
     strings: ["Hi, my name is..."],
     typeSpeed: 1,
@@ -45,7 +43,7 @@
     }
   });
 });
-
+*/
 (function($) {
   var cnt = 
         '<li><a href="#home">Home</a></li>' +
@@ -56,7 +54,7 @@
 
 (function($) {
   var cnt =
-        '<p class="contact">If you wish to contact me with any questions, comments, or concerns<br/>please fill out this form that literally goes nowhere and I will not get back to you.<br/>(Looking at you Microsoft)</p>';
+        '<p class="contact">If you wish to contact me with any questions, comments, or concerns<br/>please fill out this form which is linked to my SQL database and I will not get back to you.<br/>(Looking at you Microsoft)</p>';
     $('#precontact').append(cnt);
 })(jQuery);
 
@@ -77,11 +75,11 @@
     
     var form = $(this).serialize();
     console.log(form);
-    if(document.get<ElementById('checkjawn').checked) {
+    if(document.getElementById('checkjawn').checked) {
       $('#daform').hide();
       $('#precontact').hide();
       $.ajax({
-        url: "php/formsubmit.php?=" + form,
+        url: "php/formsubmit.php?=&" + form,
         type: "get", 
         success: function(result){
               $("#afterForm").append(result);

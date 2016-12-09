@@ -12,9 +12,9 @@
   </head>
   <body>
     <ul class="topnav" id="topNav"></ul>
-    <div class="section" id="home">
+    <div class="section container init" id="home">
       <div class="topspacer"></div>
-      <pre class="intro"></pre>
+      <div class="intro term"></div>
       <h1 class="name"></h1>
       <div class="subtext">
         <p class="subtext1"></p>
@@ -99,7 +99,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./js/typed.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
     <script src="./js/junk.js"></script>
+    <script src="./js/interaction.js"></script>
   </body>
 </html>

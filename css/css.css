@@ -14,6 +14,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  display: none;
 }
 
 .topspacer {
@@ -36,6 +37,9 @@ ul.topnav li.icon {
   display: none;
 }
 
+.intro {
+  display: inline-block;
+}
 .text {
   border-style: none;
 }
@@ -61,12 +65,41 @@ ul.topnav li.icon {
   text-align: center;
 }
 
+.init {
+  
+}
+
+.term {
+  position: relative;
+  font-family: monospace;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-size: 1em; 
+  display: inline;
+}
+
+.cursor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  background: black;
+  animation: typing 2s steps(12, end);
+}
+
+@keyframes typing {
+   from { width: 100%; }
+   to { width: 0; }
+}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
