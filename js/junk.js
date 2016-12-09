@@ -3,7 +3,7 @@
   $('.section').css("min-height",h);
 })(jQuery);
 
-/*$(document).ready(function() {
+$(document).ready(function() {
   $(".intro").typed({
     strings: ["Hi, my name is..."],
     typeSpeed: 1,
@@ -43,7 +43,7 @@
     }
   });
 });
-*/
+
 (function($) {
   var cnt = 
         '<li><a href="#home">Home</a></li>' +

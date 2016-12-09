@@ -12,9 +12,8 @@ ul.topnav {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: ;
   background-color: #333;
-  display: none;
 }
 
 .topspacer {
@@ -38,14 +37,14 @@ ul.topnav li.icon {
 }
 
 .intro {
-  display: inline-block;
+  /*display: inline-block; uncomment for use with broken php terminal*/
 }
 .text {
   border-style: none;
 }
 
 .radios {
-  /*border-style: none;*/
+  border-style: none;
 }
 
 .checkboxes {
@@ -65,7 +64,7 @@ ul.topnav li.icon {
   text-align: center;
 }
 
-.init {
+.init { /* for use with broken php terminal */
   
 }
 

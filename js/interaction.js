@@ -6,7 +6,7 @@ function command(command) {
       type: "get", 
       success: function(result){
           console.log(result);    
-          //$(".intro").append(result);
+          $(".intro").append(result);
       }
    });  
 }

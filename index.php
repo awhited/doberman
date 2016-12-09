@@ -83,15 +83,7 @@
       <h1>Credits</h1>
       <h3>Lord knows I couldn&#39t do it on my own</h3>
       <h3>Special thanks to:</h3>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1">My old friend Rick</a></li>
-        <li><a href="http://w3schools.com">w3schools</a></li>
-        <li><a href="https://github.com/mattboldt/typed.js/">Matt Boldt, for his typed.js tool</a></li>
-        <li><a href="https://api.jquery.com">jQuery api</a></li>
-        <li><a href="http://mattbowytz.com">Matt Bowytz, for being awesome</a></li>
-        <li><a href="https://stackoverflow.com">StackOverflow</a></li>
-        <li><a href="https://google.com">Big homie Googs</a></li>
-      </ul>        
+      <ul class='links'></ul>        
 
 
 
@@ -100,6 +92,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./js/typed.js"></script>
     <script src="./js/junk.js"></script>
-    <script src="./js/interaction.js"></script>
+    <!--<script src="./js/interaction.js"></script> for use with broken php/css terminal -->
+    <script src="./js/links.js"></script>
   </body>
 </html>
