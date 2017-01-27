@@ -19,6 +19,8 @@
         <p class="subtext5"></p>
       </div>
     </div>
+    <div class="section" id="about">
+    </div>
     <div class="section" id="contact">
       <div class="topspacer"></div>
       <h1>Contact</h1>

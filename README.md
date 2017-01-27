@@ -1,6 +1,6 @@
 # doberman
 ## Personal project website for cs1520. 
-This is a simple site written in html, css, and javascript whose purpose is to be a personal promotional website. It has three sections, home, contact, and credits.
+This is a simple site written in html, css, and javascript. It is a personal promotional website for me, Austin Whited. It has four sections on one page; home, about me, contact, and credits. The website started as a two part project for CS1520 at the University of Pittsburgh in Fall 2016. Excellent class by the way. 
 
 ###Home
 Homepage of the website. Says my name in fancy JS
@@ -30,3 +30,8 @@ I've implemented php link looping in my credits with the use of the links.php fi
  
 ###Frontpage
 I've decided to extend the terminal typing feature into a functional terminal which executes psudocommands to activate styles and sections of markup. When all the commands are complete, you are left with the pretty website, One obstacle in this design is getting JavaScript to execute the "commands" one at a time, rather than all at once. The current model is written using AJAX calls to php. The php files can only fire one at a time, so the theory is that the all of the AJAX calls for commands will fire one after another, but be processed by the server at a much slower rate, to simulate typing and command execution n'at. At this point the feature is broken and having only recieved the terminal code today I'm not sure that I'll get the chance to make it work :(. 
+
+##Hosting
+I've taken the liberty of hosting this website on my arch linux server. It currently resides at 
+"http://71.112.171.46/doberman/". I will be converting this to a DNS Name when the website is closer to being finished. The web server is setup with github integration, such that whenever there is an update to the master repository of this project, they are pushed live to the server. 
+
