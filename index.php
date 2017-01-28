@@ -20,6 +20,8 @@
       </div>
     </div>
     <div class="section" id="about">
+      <div class="topspacer"></div>
+      <h1>About me</h1>  
     </div>
     <div class="section" id="contact">
       <div class="topspacer"></div>
