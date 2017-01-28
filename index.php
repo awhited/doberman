@@ -9,7 +9,6 @@
     <ul class="topnav" id="topNav"></ul>
     <div class="section container init" id="home">
       <div class="topspacer"></div>
-      <div class="topspacer"></div>
       <div class="intro term"></div>
       <h1 class="name"></h1>
       <div class="subtext">
