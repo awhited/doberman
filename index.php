@@ -5,7 +5,7 @@
     <meta charset="UTF-8"> 
     <link rel="stylesheet" type="text/css" href="css/css.css">
   </head>
-  <body class="positioner">
+  <body>
     <ul class="topnav" id="topNav"></ul>
     <div class="section container init" id="home">
       <div class="topspacer"></div>
