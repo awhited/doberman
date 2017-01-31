@@ -24,7 +24,6 @@ body {
 ul.topnav {
   list-style-type: none;
   z-index: 101;
-  display: inline-block;
 }
 
 .topspacer {
