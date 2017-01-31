@@ -1,4 +1,4 @@
-require('bootstrap');
+//require('bootstrap');
 
 (function($) {
   var h=$(window).height();
