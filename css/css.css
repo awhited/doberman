@@ -7,6 +7,7 @@ body {
 .positioner {
   max-width: 970px;
   margin: 0 auto;
+  padding: 0 5vw; 
 }
 
 .banner {
@@ -24,6 +25,8 @@ body {
 ul.topnav {
   list-style-type: none;
   z-index: 101;
+  max-width: 970px;
+  margin: 0 auto;
 }
 
 .topspacer {

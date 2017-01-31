@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="banner">
-      <ul class="topnav positioner" id="topNav"></ul>
+      <ul class="topnav" id="topNav"></ul>
     </div>
     <div class="positioner section container init" id="home">
       <div class="topspacer"></div>

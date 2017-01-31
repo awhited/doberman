@@ -49,8 +49,8 @@ $(document).ready(function() {
 (function($) {
   var cnt = 
         '<li><a href="#home">Home</a></li>' +
-        '<li><a href="#about">About me</a></li>' +
         '<li><a href="#contact"</a>Contact</li>' +
+        '<li><a href="#about">About</a></li>' +
         '<li><a href="#credits"</a>Credits</li>';
   $('#topNav').append(cnt);
 })(jQuery);
