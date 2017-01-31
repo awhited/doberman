@@ -23,8 +23,8 @@ body {
 
 ul.topnav {
   list-style-type: none;
-  z-index: 100;
-  display: inline;
+  z-index: 101;
+  display: inline-block;
 }
 
 .topspacer {
