@@ -9,7 +9,7 @@
     <div class="banner">
       <ul class="topnav positioner" id="topNav"></ul>
     </div>
-    <div class="section container init" id="home">
+    <div class="positioner section container init" id="home">
       <div class="topspacer"></div>
       <div class="intro term"></div>
       <h1 class="name"></h1>
@@ -21,11 +21,11 @@
         <p class="subtext5"></p>
       </div>
     </div>
-    <div class="section" id="about">
+    <div class="section positioner" id="about">
       <div class="topspacer"></div>
       <h1>About me</h1>  
     </div>
-    <div class="section" id="contact">
+    <div class="section positioner" id="contact">
       <div class="topspacer"></div>
       <h1>Contact</h1>
       <div id="precontact"></div>
@@ -79,7 +79,7 @@
       <div id="afterForm"></div>
     </div>
     
-    <div class="section" id="credits">
+    <div class="section positioner" id="credits">
       <div class="topspacer"></div> 
       <h1>Credits</h1>
       <h3>Lord knows I couldn&#39t do it on my own</h3>
