@@ -4,6 +4,11 @@ body {
   font-family: 'Open Sans', serif;
 }
 
+.positioner {
+  max-width: 970px
+  margin: 0 auto
+}
+
 ul.topnav {
   list-style-type: none;
   position: fixed;

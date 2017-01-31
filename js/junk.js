@@ -1,3 +1,5 @@
+require('bootstrap');
+
 (function($) {
   var h=$(window).height();
   $('.section').css("min-height",h);
