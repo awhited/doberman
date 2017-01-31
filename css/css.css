@@ -9,8 +9,7 @@ body {
   margin: 0 auto;
 }
 
-ul.topnav {
-  list-style-type: none;
+.banner {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,6 +18,11 @@ ul.topnav {
   padding: 0;
   overflow: ;
   background-color: #333;
+  z-index: 100;
+}
+
+ul.topnav {
+  list-style-type: none;
   z-index: 100;
 }
 

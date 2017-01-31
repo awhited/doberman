@@ -5,8 +5,10 @@
     <meta charset="UTF-8"> 
     <link rel="stylesheet" type="text/css" href="css/css.css">
   </head>
-  <body class="positioner">
-    <ul class="topnav" id="topNav"></ul>
+  <body>
+    <div class="banner">
+      <ul class="topnav" id="topNav"></ul>
+    </div>
     <div class="section container init" id="home">
       <div class="topspacer"></div>
       <div class="intro term"></div>
