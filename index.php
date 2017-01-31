@@ -21,10 +21,7 @@
         <p class="subtext5"></p>
       </div>
     </div>
-    <div class="section positioner" id="about">
-      <div class="topspacer"></div>
-      <h1>About me</h1>  
-    </div>
+
     <div class="section positioner" id="contact">
       <div class="topspacer"></div>
       <h1>Contact</h1>
@@ -79,6 +76,11 @@
       <div id="afterForm"></div>
     </div>
     
+    <div class="section positioner" id="about">
+      <div class="topspacer"></div>
+      <h1>About this site</h1>  
+    </div>
+
     <div class="section positioner" id="credits">
       <div class="topspacer"></div> 
       <h1>Credits</h1>

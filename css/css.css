@@ -7,7 +7,7 @@ body {
 .positioner {
   max-width: 970px;
   margin: 0 auto;
-  padding: 0 5vw; 
+  padding: 1vh 5vw;
 }
 
 .banner {
