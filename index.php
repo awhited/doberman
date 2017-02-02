@@ -78,7 +78,7 @@
     
     <div class="section positioner" id="about">
       <div class="topspacer"></div>
-      <h1>About this site</h1>  
+      <h1>About this site (.Y.)</h1>  
     </div>
 
     <div class="section positioner" id="credits">
@@ -87,11 +87,8 @@
       <h3>Lord knows I couldn&#39t do it on my own</h3>
       <h3>Special thanks to:</h3>
       <ul class='links'></ul>        
-
-
-
-
     </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./js/typed.js"></script>
     <script src="./js/junk.js"></script>
