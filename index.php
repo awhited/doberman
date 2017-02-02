@@ -78,7 +78,7 @@
     
     <div class="section positioner" id="about">
       <div class="topspacer"></div>
-      <h1>About this site (.Y.) (*)(*)</h1>  
+      <h1>About this site (*)(*)</h1>  
     </div>
 
     <div class="section positioner" id="credits">
