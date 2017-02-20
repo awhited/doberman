@@ -27,7 +27,7 @@
       <h1>Contact</h1>
       <div id="precontact"></div>
       <form method="post" id="daform">
-        <p>Please enter your contact stuff:</p>
+        <p>Please enter your contact info:</p>
         <fieldset class="text">
           <div class="input-holder">
             <label for="fname">First Name:</label>
